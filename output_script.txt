@@ -1,0 +1,12 @@
+Generate Time:       4.19071
+Build Time:          2.12907
+Average Time:        0.02904
+Generate Time:       2.15878
+Build Time:          1.16324
+Average Time:        0.01609
+Generate Time:       1.18140
+Build Time:          0.71920
+Average Time:        0.00987
+Generate Time:       1.03168
+Build Time:          0.65209
+Average Time:        0.00929
