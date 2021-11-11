@@ -4,7 +4,7 @@ Lines = file1.readlines()
 Generate = []
 Build = []
 Average = []
-Core_Scale = [1,2,4,8,16,32]
+Core_Scale = [1,2,3,4,5,6,7,8]
 
 print(Lines)
 for i in range(0,len(Lines),3):
@@ -17,17 +17,17 @@ for i in range(0,len(Lines),3):
 print(Generate)
 print(Average)
 print(Build)
-plt.plot(Core_Scale[0:4], Generate)
+plt.plot(Core_Scale, Generate)
 plt.legend(['Generate Time'])
 plt.xlabel('Number of cores')
 plt.ylabel('Time(in sec)')
 plt.show()
-plt.plot(Core_Scale[0:4], Average)
+plt.plot(Core_Scale, Average)
 plt.legend(['Build Time'])
 plt.xlabel('Number of cores')
 plt.ylabel('Time(in sec)')
 plt.show()
-plt.plot(Core_Scale[0:4], Build)
+plt.plot(Core_Scale, Build)
 plt.legend(['Average Time'])
 plt.xlabel('Number of cores')
 plt.ylabel('Time(in sec)')
