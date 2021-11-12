@@ -1,0 +1,12 @@
+Without Hyperthreading:
+	Generate Time:       3.28181
+	Build Time:          1.50596
+	Average Time:        0.02361
+	
+	
+With Hyperthreading:
+	Generate Time:       3.27724
+	Build Time:          1.51085
+	Average Time:        0.02418
+	
+
